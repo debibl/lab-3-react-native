@@ -1,5 +1,5 @@
 # Лабораторная №3: 
-## Создание списков в приложении на React Native
+## Добавление навигации в приложение на Expo
 
 <p align="center"> 
 <image width=500px src="https://i.imgur.com/5PDSRyI.jpeg">
