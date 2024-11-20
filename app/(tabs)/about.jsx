@@ -1,13 +1,13 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
-function Card() {
+function About() {
   return (
     <View style={styles.container}>
       <View style={styles.card}>
         <Image
           style={styles.cardImg}
-          source={require('../assets/profile.jpg')}
+          source={require('../../assets/profile.jpg')}
         />
         <Text style={styles.cardTitle}>Василина Мирян</Text>
         <Text style={styles.cardText}>Александр Дмитриевич, поставьте 5, пожалуйста</Text>
@@ -16,7 +16,7 @@ function Card() {
   );
 }
 
-export default Card;
+export default About;
 
 const styles = StyleSheet.create({
   container: {

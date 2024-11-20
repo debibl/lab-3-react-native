@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { FlatList, SafeAreaView, StyleSheet, RefreshControl } from 'react-native';
-import LanguageCard from '../components/LanguageCard.js';
-import languages from '../data/LanguagesList.js';
+import LanguageCard from '../../components/LanguageCard.js';
+import languages from '../../data/LanguagesList.js';
 
-export default function App() {
+export default function Languages() {
   const [refreshing, setRefreshing] = useState(false);
 
   const onRefresh = () => {
